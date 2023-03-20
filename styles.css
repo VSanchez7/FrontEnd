@@ -1,0 +1,272 @@
+/*Esto es un comentario en css*/
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Shantell Sans', cursive;
+}
+
+/*Para darle color a la parte de arriba del portfolio*/
+.bg-navbar {
+    background-color: #d63384;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #e0a2c1;
+}
+
+/*Para que al acercar el puntero a las redes cambie de color*/
+.navbar-brand:hover {
+    color: #ec70b5;
+}
+
+/*Para que el fondo sea en degrade*/
+div.colordefondo {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, #d63384 20%, #c56d99 70%, #df739e 80%);
+}
+
+h2.nombre {
+    font-size: 1.70rem;
+    font-weight: bold;
+}
+
+/*Para darle sombra a la presentación bienvenidos*/
+h2.presentacion {
+    font-size: 2.75rem;
+    text-shadow: 3px 3px 0 #860e4a;
+}
+
+h3.carrera {
+    font-size: 1.40rem;
+}
+
+/*Para justificar y inclinar la letra en acerca de mi*/
+p {
+    font-size: 1.30rem;
+    text-align: justify;
+    font-style: oblique;
+}
+
+h2.titulos {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*Para darle borde y estilo al titulo universidad*/
+h2.universidad {
+    font-size: 1.8rem;
+    border-style: solid solid none solid;
+    border-color: #3b0326;
+    margin-bottom: 0rem;
+    border-width: 0.2rem;
+    width: 80%;
+}
+
+/*Para darle borde y estilo al titulo secundario*/
+h2.secundario {
+    font-size: 1.8rem;
+    border-style: solid solid none solid;
+    border-color: #3b0326;
+    margin-bottom: 0rem;
+    border-width: 0.2rem;
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Para darle borde a la lista universitario*/
+.list-group-universitario {
+    border-style: solid;
+    border-width: 0.2rem;
+    padding-left: 0%;
+    margin-top: 0%;
+    border-color: #3b0326;
+    width: 80%;
+    padding: 6.5%;
+}
+
+li.lugar-escuela {
+    font-size: 1.5rem
+}
+
+li.orientación-escuela {
+    font-size: 1.5rem
+}
+
+class.escuela {
+    text-align: justify;
+}
+
+/*Para sacarle el fondo blanco a la imagen*/
+li.imagen-universidad {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+/*Para darle borde a la lista secundario*/
+.list-group-secundario {
+    border-style: solid;
+    border-width: 0.2rem;
+    padding-left: 0%;
+    margin-top: 0%;
+    border-color: #3b0326;
+    width: 80%;
+}
+
+/*Para sacarle el fondo blanco a la imagen*/
+li.imagen-escuela {
+    filter: brightness(0.5.0.5);
+    mix-blend-mode: multiply;
+}
+
+/*Para darle borde a la lista trabajo1*/
+.list-group-trabajo1 {
+    border-style: solid;
+    border-width: 0.2rem;
+    padding-left: 0%;
+    margin-top: 0%;
+    border-color: #3b0326;
+    width: 100%;
+}
+
+li.periodo {
+    font-size: 1.5rem
+}
+
+li.tareas {
+    font-size: 1.5rem
+}
+
+class.tareas {
+    text-align: justify;
+}
+
+/*Para darle borde y estilo al titulo trabajo1*/
+h2.trabajo1 {
+    font-size: 1.8rem;
+    border-style: solid solid none solid;
+    border-color: #3b0326;
+    margin-bottom: 0rem;
+    border-width: 0.2rem;
+    width: 100%;
+}
+
+/*Para darle brillo*/
+li.imagen-trabajo1 {
+    filter: brightness(0.5.0.5);
+    mix-blend-mode: multiply;
+}
+
+/*Para darle borde y estilo al titulo trabajo2*/
+h2.trabajo2 {
+    font-size: 1.8rem;
+    border-style: solid solid none solid;
+    border-color: #3b0326;
+    margin-bottom: 0rem;
+    border-width: 0.2rem;
+    width: 100%;
+}
+
+/*Para darle borde a la lista trabajo2*/
+.list-group-trabajo2 {
+    border-style: solid;
+    border-width: 0.2rem;
+    padding-left: 0%;
+    margin-top: 0%;
+    border-color: #3b0326;
+    width: 100%;
+    padding: 16%;
+}
+
+/*Para darle brillo*/
+li.imagen-trabajo2 {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+/*Para darle borde y estilo al titulo trabajo3*/
+h2.trabajo3 {
+    font-size: 1.6rem;
+    border-style: solid solid none solid;
+    border-color: #3b0326;
+    margin-bottom: 0rem;
+    border-width: 0.2rem;
+    width: 100%;
+}
+
+/*Para darle borde a la lista trabajo3*/
+.list-group-trabajo3 {
+    border-style: solid;
+    border-width: 0.2rem;
+    padding-left: 0%;
+    margin-top: 0%;
+    border-color: #3b0326;
+    width: 100%;
+    padding: 11.5%;
+}
+
+/*Para darle brillo*/
+li.imagen-trabajo3 {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+/*Descarga de curriculum vitae*/
+
+a {
+    color: #3b0326;
+    font-size: 1.3rem;
+}
+
+
+.porcentaje {
+    position: relative;
+}
+
+.porcentaje span {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    border: 5rem solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 10rem
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dasharray: var(--porcentaje) 100;
+    }
+}
+
+circle {
+    fill: none;
+    stroke-width: 15;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-dasharray: 100 100;
+    stroke: #f5e3eb;
+}
+
+/* El segundo circulo es el que se ve encima del anterior y debe tener un color mas intenso y el area del porcentaje*/
+circle:nth-child(2) {
+    stroke: var(--color);
+    stroke-dasharray: var(--porcentaje) 100;
+    
+}
+
+.piedepagina{
+    padding-left: 43%;
+    background-color:#d63384;
+
+}
